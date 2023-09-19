@@ -1,0 +1,25 @@
+.home-container {
+    display: flex;
+
+}
+
+.home-item {
+    width: 200px;
+    margin: 10px;
+    background-color: whitesmoke;
+}
+
+.home-item-1 {
+    min-height: 100px;
+    
+}
+
+.home-item-2 {
+    min-height: 100px;
+    
+}
+
+.home-item-3 {
+    min-height: 100px;
+    
+}
