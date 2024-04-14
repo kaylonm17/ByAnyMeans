@@ -21,7 +21,7 @@ function App () {
   const[theme, colorMode] = useMode();
 
   return (<ColorModeContext.Provider value={colorMode}>
-    <ThemeProvier theme={theme}>
+    <ThemeProvider theme={theme}>
       <CssBaseline />
       <div calssName="app">
         <Sidebar/>
@@ -43,7 +43,7 @@ function App () {
           </Routes>
         </main>
       </div>
-    </ThemeProvier>
+    </ThemeProvider>
   </ColorModeContext.Provider>
   );
 }
